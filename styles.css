@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.custom-n-container {
+    border-radius: 20px;
+}
+
+.logo-drop {
+    margin-right: 3px;
+}
+
+.custom-logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.c-n-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2px;
+}
+
+.c-n-link:hover {
+    border-bottom: 2px solid #e6d40a;
+}
+
+.custom-n-btn {
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: #e6d40a;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.custom-n-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scaleX(1.1);
+}
+
+/* Hero Section */
+
+.custom-h-container {
+    margin-top: 100px;
+    text-align: center;
+    z-index: 2;
+}
+
+.hero-p1-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.hero-h1-text {
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.hero-h1-span {
+    color: rgb(184, 145, 61);
+}
+
+.hero-btn {
+    font-size: 1.2rem;
+    background-color: #e6d40a;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 6px 4px rgba(80, 65, 2, 0.2);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 10px 4px rgba(255, 205, 5, 0.2);
+    transform: scaleX(1.1);
+}
+
+.hero-p2-text {
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hero-h4-text {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.col-badge {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.carousel-badges {
+    padding-top: 30px;
+}
+
+/* Video Section */
+
+
+#sec-video {
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.video-sec {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#features {
+    padding-top: 40px;
+}
+
+.feature-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.f-copy {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.f-text1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.f-ptext1 {
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+/* Case Study Section */
+
+#Case-Study {
+    padding-top: 70px;
+}
+
+.Case-Section {
+    background-color: black;
+    text-align: center;
+
+}
+
+.case-con {
+    width: 80%;
+    margin-left: 110px;
+    padding-top: 10px;
+}
+
+.case-h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.case-p1 {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 9px;
+}
+
+.view-more {
+    color: #e6d40a;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.view-more:hover {
+    color: black;
+    background-color: #e6d40a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    transition: 0.7s ease-in-out;
+}
+
+.case-img1 {
+    padding-top: 20px;
+    box-shadow: black;
+    position: relative;
+    top: 50px;
+    border-radius: 40px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Alpha-img {
+    max-height: 100%;
+    max-width: 50%;
+    object-fit: cover;
+}
+
+.Alpha-case {
+    margin-top: 40px;
+    width: 50%;
+}
+
+.Media {
+    text-align: center;
+}
+
+/* Consultation Section */
+
+#consultation {
+    background-color: #ffff;
+}
+
+.con-consult {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.con-box {
+    padding-top: 60px;
+}
+
+.consultation-h1 {
+    font-weight: 800;
+    font-size: 2.6rem;
+    margin: 10px 30px 10px 30px;
+}
+
+.consultation-p1 {
+    margin: 10px 20px 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.Sche-btn {
+    color: #e6d40a;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Sche-btn:hover {
+    color: black;
+    background-color: #e6d40a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Footer SECTION */
+
+.foot {
+    margin-top: 20px;
+    background-color: #e6d40a;
+    border-radius: 20px;
+}.r-foot{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.Footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.logo-text {
+    padding-top: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.f-text {
+    padding-top: 7px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+}
+
+.footer-links{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.service{
+    margin-left: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+.About{
+    text-align: center;
+}
+
+.indu{
+    text-align: center;
+}
+
+
+.copyright{
+    display: flex;
+    justify-content: end;
+}
+
+.osmo{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 700px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        width: 98%;
+    }
+   /* Navbar Section */
+    .custom-n-container{
+        margin-left: 10px;
+    }
+    /* Hero Section */
+    .hero-h1-text{
+        font-size: 1.9rem;
+    }
+    .video-sec{
+        width: 100%;
+    }
+
+    .case-con{
+        margin-right: 30px;
+        margin-left: 50px;
+        z-index: 2;
+    }
+    .case-p1{
+        padding-right: 0px;
+    }
+    .case-img1{
+      width: 450px;
+      z-index: 1;
+    }
+
+    .con-consult{
+        margin-left: 9px;
+    }
+    .consultation-h1{
+        font-size: 1.9rem;
+    }
+    .consultation-p1{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .osmo-col{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .logo-text{
+        text-align: center;
+    }
+
+    .service{
+        width: 80%;
+    }
+
+    .Case-Section{
+        margin: 4px;
+    }
+    
+    .foot{
+        margin-left: 3.8px;
+    }
+    
+}
+
+/* For Ipad Phones */
+
+@media screen and (width: 1024px){
+     body{
+        width: 90%;
+        text-align: center;
+    }
+
+      .custom-n-container{
+        margin-left: 75px;
+    } 
+
+    /* Hero Section */
+
+     .custom-h-container{
+        margin-left: 40px;
+    }
+
+    .f-copy{
+        margin-left: 50px;
+    }
+
+    .Case-Section{
+        margin-left: 50px;
+    }
+
+    .case-con{
+        padding-right: 40px;
+    }
+
+    .case-img1{
+        width: 70%;
+    }
+
+    .con-box{
+        margin-right: 100px;
+    }
+
+    .service{
+       margin-left: 10px; 
+    }
+
+    .logo-text{
+        padding-right: 0;
+
+    }
+
+    .foot{
+        margin-left: 50px;
+    }
+}
